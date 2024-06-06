@@ -138,7 +138,7 @@ public class math extends Application {
             answerButtons[i].setOnAction(e -> checkAnswer(finalI));
         }
 
-        buttonBox = new HBox(10); // Initialize the HBox
+        buttonBox = new HBox(10);
         buttonBox.setAlignment(Pos.CENTER);
         buttonBox.getChildren().addAll(answerButtons);
 
